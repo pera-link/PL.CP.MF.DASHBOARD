@@ -1,3 +1,11 @@
+// @ts-ignore
+import { Test } from "@peralink/core-utility"
+
 export default function Root(props) {
-  return <section>{props.name} is mounted!</section>;
+  return (
+    <div>
+      <h1>Dashboard</h1>
+      <Test />
+    </div>
+  );
 }
