@@ -3,7 +3,7 @@ const singleSpaDefaults = require("webpack-config-single-spa-react-ts");
 
 module.exports = (webpackConfigEnv, argv) => {
   const defaultConfig = singleSpaDefaults({
-    orgName: "PeraLink",
+    orgName: "peralink",
     projectName: "dashboard",
     webpackConfigEnv,
     argv,
